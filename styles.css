@@ -1,0 +1,125 @@
+body{
+    background-color:blue;
+}
+/* sections */
+.colored-section{
+    background-color:#A0E4CB;
+    color:white;
+}
+.white-section{
+    background-color: whitesmoke;
+    color:#579BB1;
+}
+/* title part hosing all necesaary deatils */
+#title{
+    font-family: 'Righteous','cursive';
+    
+}
+/* fluid container to determine the changes in program when screen width cahnges */
+.title-image{
+    position: relative;
+    left:25%;
+}
+h1{
+    font-size:3rem;
+    line-height:1.5;
+    font-family: 'Righteous','cursive';
+}
+.navbar{
+    padding-bottom:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar-item{
+    padding:0 18px;
+}
+.navbar-link{
+    font-size: 2rem;
+    font-family: 'Righteous','cursive' ;
+}
+.btn{
+    margin:5% 3% 5% 0;
+}
+#catures{
+    padding:7% 7%;
+}
+.feature-box{
+    text-align:center;
+    padding:5%;
+}
+h3{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+p{
+    color: dimgray;
+}
+.icon{
+    margin-bottom:1rem;
+    color:#A0E4CB;
+}
+.icon:hover {
+    color:#579BB1;
+}
+#testimonials{
+    text-align:center;
+    font-family:'Staatliches', cursive;
+    padding-bottom:3%;
+}
+h2{
+    font-family: 'Righteous','cursive' ;
+}
+.Testimonail-image{
+    border-radius:100%;
+    height:200px; 
+    width:200px;
+}
+#press{
+    background-color:#A0E4CB;
+    text-align:center;
+    padding-bottom:2rem;
+}
+/* images in press part */
+.gqy{
+    height:5%; 
+    width:7%;
+    margin:2% 2%;
+}
+#testimonials-cour{
+    background-color: #A0E4CB;
+    padding:2rem 20rem 2rem 20rem;
+    text-align:center;
+  }
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    padding:100px;
+}
+.pricingcolumn{
+    padding:10px;
+    text-align:center;
+} 
+#footer{
+    text-align:center;
+    padding: 7% 15%;
+}
+.hg{
+    position: relative;
+    left:35%;
+}
+@media (max-width:1000px) {
+    #title{
+        text-align:center;
+    }
+    .title-image{
+        position: static;
+    }
+    #testimonials-cour{
+        text-align:left;
+        padding:0;
+    }
+}
